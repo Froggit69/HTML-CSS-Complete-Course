@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  width: 100dvw;
-  height: 98vh;
-  height: 98dvh;
+  width: 99vw;
+  width: 99dvw;
+  height: 97vh;
+  height: 97dvh;
 }
 
 .button {
