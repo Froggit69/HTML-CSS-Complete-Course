@@ -1,3 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  width: 100dvw;
+  height: 98vh;
+  height: 98dvh;
+}
+
 .button {
   background-color: #4fc3f7;
   color: white;
@@ -5,6 +15,7 @@
   padding: 1.25rem;
   border-radius: 1.25rem;
   font-size: 1.5rem;
+  box-shadow: 1px 2px 5px rgb(72, 73, 73);
 }
 
 .button:hover {
@@ -13,4 +24,5 @@
 
 .button.clicked {
   background-color: #b3e5fc;
+  box-shadow: 1px 2px 10px rgb(72, 73, 73);
 }
