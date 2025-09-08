@@ -1,9 +1,10 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Use flexbox. https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ */
+  justify-content: center; /* Center by vertical. */
+  align-items: center; /* Center by horizontal. */
+  /* Container size. */
   width: 99vw;
-  width: 99dvw;
+  width: 99dvw; /* `dvw` and `dvh` means set the `width` and `height` depending on screen size, ignoring other elements sizes. */
   height: 97vh;
   height: 97dvh;
 }
